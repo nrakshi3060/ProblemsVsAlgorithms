@@ -78,6 +78,7 @@ def get_suffixes(prefix):
     else:
         print('')
 
+
 print("---------Test Case 1--------------")
 get_suffixes("t")
 print("---------Test Case 2--------------")
