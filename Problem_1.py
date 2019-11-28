@@ -9,10 +9,8 @@ def sqrt(number):
     """
     start = 0
     end = number
-    count = 0
     ans = 0
     while start <= end:
-        count += 1
         mid = (start + end) // 2
 
         if (mid * mid) == number:
