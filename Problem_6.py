@@ -13,7 +13,7 @@ def get_min_max_func(arr, start_index, end_index):
 
     mid_index = (start_index + end_index) // 2
     min, max = get_min_max_func(arr, start_index, mid_index - 1)
-    min_right, max_right,  = get_min_max_func(arr, mid_index, end_index)
+    min_right, max_right  = get_min_max_func(arr, mid_index, end_index)
 
     if max < max_right:
         max = max_right
